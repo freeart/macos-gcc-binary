@@ -7,17 +7,20 @@ This is the macOS binary for the current stable release of *GCC 8.2*, this file 
 How to use:
 ===========
 
+Get the binary:
+
+```console
+curl -L https://github.com/sol-prog/macos-gcc-binary/releases/download/gcc-8.2.0/gcc-8.2-macos-mojave.tar.xz | tar xf -
+```
+
 In order to install this binary extract gcc-8.2-macos-mojave.tar.xz and copy the extracted folder (gcc-8.2) to your /usr/local folder.
 
-```
-#!console
-
+```console
 tar xf gcc-8.2-macos-mojave.tar.xz
 sudo mv gcc-8.2 /usr/local
 
 echo 'export PATH=/usr/local/gcc-8.2/bin:$PATH' >> ~/.bash_profile
 source ~/.bash_profile
-
 ```
 
 Compiling a C++17 code is as simple as:
