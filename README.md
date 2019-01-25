@@ -16,7 +16,6 @@ curl -L https://github.com/sol-prog/macos-gcc-binary/releases/download/gcc-8.2.0
 In order to install this binary extract gcc-8.2-macos-mojave.tar.xz and copy the extracted folder (gcc-8.2) to your /usr/local folder.
 
 ```bash
-tar xf gcc-8.2-macos-mojave.tar.xz
 sudo mv gcc-8.2 /usr/local
 
 echo 'export PATH=/usr/local/gcc-8.2/bin:$PATH' >> ~/.bash_profile
