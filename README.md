@@ -26,6 +26,13 @@ Compiling a C++17 code is as simple as:
 
 g++-9.1 -std=c++17 file_name.cpp -o file_name:
 
+If you get an error about missing headers
+
+```bash
+cd /Library/Developer/CommandLineTools/Packages/
+open .
+```
+
 If you need more help leave me a comment at:
 
 [https://solarianprogrammer.com/2017/05/21/compiling-gcc-macos/](https://solarianprogrammer.com/2017/05/21/compiling-gcc-macos/)
